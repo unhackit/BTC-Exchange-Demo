@@ -1,0 +1,296 @@
+body{
+	font-family: 'Nunito Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+.head{
+	width: 90%;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #16161F;
+	color: white;
+	font-size: 17px;
+}
+header h2{
+	width: 5%;
+	float: left;
+	position: relative;
+	font-weight: 700;
+	right: 30px;
+	height: 20px;
+
+}
+.head input{
+	background-color: #c0c0c0;
+	height: 25px;
+	margin-top: 18px;
+	margin-left: 40px;
+	float: left;
+	border: none;
+	padding: 5px;
+	width: 30%;
+	border-radius: 3px;
+	box-shadow: none;
+	float: right;
+	
+}
+header h2 a{
+	color: white;
+	text-decoration: none;
+}
+.head input:focus{
+	background-color: #ffffff;
+}
+
+#section-one{
+	width: 100%;
+	height: 60px;
+	
+}
+.section-one-left{
+	width: 25%;
+	float: left;
+	height: 60px;
+	color: white;
+	background: #c0c0c0;
+	text-align: center;
+}
+.section-one-mid{
+	width: 55%;
+	float: left;
+	height: 60px;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+
+}
+.section-one-right{
+	width: 20%;
+	float: left;
+	height: 54px;
+	color: black;
+	padding-top: 4px;
+}
+.section-one-right h3{
+	float:left;
+	text-align: center;
+	width: 70%;
+	margin-bottom: 0;
+	height: 60px;
+}
+#section-two{
+	width: 100%;
+	height: 700px;
+	
+}
+.section-two-left{
+	width: 25%;
+	height: 700px;
+	background: #7F818C;
+	border-top: 3px solid black;
+	float: left;
+
+}
+
+.section-two-left ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 18px;
+}
+.section-two-left ul li{
+	list-style-type: none;
+	padding:20px 0;
+	display: block;
+	border-bottom: 1px solid #c0c0c0;
+}
+.section-two-left ul li:hover{
+	background-color: black;
+}
+
+.section-two-left ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding-left: 15px;
+
+}
+.section-two-left ul li a:hover{
+	background-color: black;
+}
+.section-two-right{
+	width: 75%;
+	height: 705px;
+	float: left;
+	background: #EAEBF3;
+	color: black;
+
+}
+
+.section-two-right div{
+	width: 45%;
+	float: left;
+	height: 300px;
+	margin: 1.66%;
+	padding: 0;
+	border-radius: 10px;
+}
+
+.box-1{
+	background: white;
+	
+}
+.box-1 h1{
+	background: orange;
+	height: 50px;
+	width: 100%;
+	margin: 0;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 10px 10px 0 0;
+
+}
+.balance{
+	text-align: right;
+	font-size: 30px;
+	font-weight: 700;
+	padding-right: 20px;
+	color: orange;
+}
+.box-1 ul{
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+.box-1 ul li{
+	padding-bottom:10px;
+	border-top:1px solid #c0c0c0;
+	padding: 10px 10px;
+
+}
+.box-1 span{
+	color: green;
+	float: right;
+	padding-right: 10px;
+}
+.box-2{
+	background: white;
+}
+.box-2 h1{
+	height: 50px;
+	width: 100%;
+	margin: 0;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	background: #5DAD5E;
+	border-radius: 10px 10px 0 0;
+}
+.box-2 ul{
+	list-style-type: none;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	}
+.box-2 ul li{
+	padding-bottom:10px;
+	border-top:1px solid #c0c0c0;
+	padding: 10px 10px;
+}
+.box-2 span{
+	color: green;
+	float: right;
+	padding-right: 10px;
+}
+.box-3{
+	background:white;
+	text-align: center;
+}
+.box-3 h1{
+	height: 50px;
+	width: 100%;
+	margin: 0;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	background: purple;
+	border-radius: 10px 10px 0 0;
+}
+.box-3 h2{
+	font-size: 40px;
+	text-align: center;
+}
+.box-4{
+	background: white;
+}
+.box-4 h1{
+	height: 50px;
+	width: 100%;
+	margin: 0;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	background: firebrick;
+	border-radius: 10px 10px 0 0;
+}
+.box-4 ul{
+	list-style-type: none;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+.box-4 ul li{
+	padding-bottom:10px;
+	border-top:1px solid #c0c0c0;
+	padding: 10px 10px;
+}
+footer{
+	width: 100%;
+	height: 300px;
+	background:#1F2025; 
+	border-top: 5px solid #7F818C;
+}
+
+.footer-container{
+	width: 80%;
+	color: white;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+footer ul{
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin: 20px;
+
+}
+
+footer ul li{
+	list-style-type: none;
+	line-height: 2;
+}
+
+.footer-header{
+	border-bottom: 2px solid white;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+footer ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+footer ul li a:hover{
+	border: 2px solid white;
+	border-radius: 3px;
+}

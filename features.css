@@ -1,0 +1,224 @@
+body{
+	font-family: 'Nunito Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url(img/featuresbg.jpg);
+	background-repeat: no-repeat;
+	background-size: 1400px 350px;
+	color: white;
+}
+
+.head{
+	width: 90%;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #16161F;
+	color: white;
+	font-size: 17px;
+}
+
+header h2{
+	width: 5%;
+	float: left;
+	position: relative;
+	font-weight: 700;
+	right: 30px;
+
+}
+header h2 a{
+	color: white;
+	text-decoration: none;
+}
+nav{
+	margin-left: 100px;
+	width: 45%;
+}
+
+
+nav li{
+	list-style-type: none;
+	text-decoration: none;
+	float: left;
+	margin: 10px;
+	margin-top: 27px; 
+
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+}
+.head input{
+	background-color: #c0c0c0;
+	height: 25px;
+	margin-top: 18px;
+	margin-left: 250px;
+	float: left;
+	border: none;
+	padding: 5px;
+	width: 30%;
+	border-radius: 3px;
+	box-shadow: none;
+	
+}
+
+.head input:focus{
+	background-color: #ffffff;
+}
+.login{
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+	color: #c0c0c0;
+	width: 15%;
+}
+.login a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+
+section{
+	width: 100%;
+}
+
+main{
+	width: 90%;
+	margin: 0 auto;
+	height: 1800px;
+}
+
+.features-cap{
+	text-align: center;
+	font-weight: 700;
+	font-size: 80px;
+	height: 220px;
+}
+
+.first-desc{
+	width: 100%;
+	height:500px;
+
+}
+.first-desc-left{
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+}
+.first-desc-right{
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+	text-align:center;
+	color: black;
+	font-size: 18px;
+	height: 500px;
+}
+.first-desc-right h1{
+	font-size: 60px;
+	font-weight: 800;
+	margin-top: 100px;
+
+}
+.second-desc-left{
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	height: 500px;
+}
+.second-desc-right{
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+	text-align:center;
+	height: 500px;
+	
+}
+.second-desc-right img{
+	width: 400px;
+	
+}
+.second-desc-left h1{
+	font-size: 60px;
+	font-weight: 800;
+	margin-top: 100px;
+
+}
+.third-desc-left{
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+}
+.third-desc-right{
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+	text-align:center;
+	color: black;
+	font-size: 18px;
+	height: 500px;
+}
+.third-desc-right h1{
+	font-size: 60px;
+	font-weight: 800;
+	margin-top: 100px;
+
+}
+.third-desc-left img{
+	width: 400px;
+}
+
+/* footer styling starts here */
+
+footer{
+	width: 100%;
+	height: 300px;
+	background:#1F2025; 
+	border-top: 5px solid #7F818C;
+}
+
+.footer-container{
+	width: 80%;
+	color: white;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+footer ul{
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin: 20px;
+
+}
+
+footer ul li{
+	list-style-type: none;
+	line-height: 2;
+}
+
+.footer-header{
+	border-bottom: 2px solid white;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+footer ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+footer ul li a:hover{
+	border: 2px solid white;
+	border-radius: 3px;
+}
